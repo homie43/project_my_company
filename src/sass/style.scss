@@ -1,0 +1,10 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 1140px;
+    margin: 0;
+    padding: 0;
+}
