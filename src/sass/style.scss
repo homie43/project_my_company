@@ -5,6 +5,14 @@
 }
 .container {
     max-width: 1140px;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
 }
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';

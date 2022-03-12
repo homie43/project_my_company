@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    background: black;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 160px 580px;
+        column-gap: 439px;
+    }
+    nav {
+        margin-top: 56px;
+    }
+    &__logo {
+        font-size: 24px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 56px;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu {
+        &__link {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ffffff;
+            text-decoration: none;
+            &:hover {
+                transform: translateY(10%);
+                border-bottom: 3px solid #fcac45;
+            }
+        }
+    }
+    
+}

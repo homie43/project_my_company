@@ -1,0 +1,27 @@
+.promo {
+    min-height: 100vh;
+    background-color: #000;
+    &__title {
+        padding-top: 296px;
+        text-align: center;
+        font-size: 44px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: -0.05em;
+        color: #999999;
+        span {
+            font-weight: 700;
+            color: #fcac45;
+        }
+    }
+    &__descr {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: -0.05em;
+        color: #ffffffcf;
+        span {
+            font-weight: 700;
+        }
+    }
+}
