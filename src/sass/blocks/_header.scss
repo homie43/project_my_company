@@ -19,6 +19,7 @@
     &__menu {
         display: flex;
         justify-content: space-between;
+        padding-left: 0px;
     }
     .menu {
         &__link {
@@ -27,6 +28,7 @@
             text-transform: uppercase;
             color: #ffffff;
             text-decoration: none;
+            padding-bottom: 12px;
             &:hover {
                 transform: translateY(10%);
                 border-bottom: 3px solid #fcac45;
