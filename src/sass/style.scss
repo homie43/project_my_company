@@ -13,9 +13,16 @@ a {
 li {
     list-style: none;
 }
+.devider {
+    width: 99px;
+    height: 5px;
+    background-color: #fcac45;
+}
 
 @import 'blocks/header';
 @import 'blocks/promo';
+@import 'BLOCKS/about';
+
 
 
 @import 'blocks/media';

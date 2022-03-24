@@ -8,6 +8,30 @@
             column-gap: 300px;
         }
     }
+    .about {
+        padding: 100px 0;
+        &__wrapper {
+            grid-template-columns: 506px;
+            grid-template-rows: repeat(2, 408px);
+            // column-gap: 177px;
+            justify-content: center;
+        }
+        &__comp {
+            grid-row: unset;
+        }
+        &__title {
+            text-align: center;
+        }
+        .devider {
+            margin: 0 auto;
+        }
+        &__text {
+            text-align: center;
+        }
+        &__mark {
+            padding-left: 53px;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -43,6 +67,7 @@
             // transform: translateY(-50%);
             width: 40px;
             height: 12px;
+            transition: 0.7s all;
             span {
                 display: block;
                 height: 4px;
@@ -52,6 +77,9 @@
                 transition: 0.7s all;
             }
             &_active {
+                transition: 0.7s all;
+                right: 42%;
+                top: 33px;
                 span {
                     margin-bottom: -2px;
                     &:nth-child(1) {
@@ -85,6 +113,9 @@
         .hamburger {
             right: 20px;
             top: 35px;
+            &_active {
+                right: 40%;
+            }
         }
     }
     .promo {
@@ -107,10 +138,47 @@
             width: 75%;
             padding: 70px 20px;
         }
+        .hamburger {
+            &_active {
+                right: 60%;
+            }
+        }
     }
     .promo {
         &__descr {
             font-size: 15px;
+        }
+    }
+    .about {
+        padding: 0;
+        &__wrapper {
+            grid-template-columns: 300px;
+        }
+        &__comp {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        &__descr {
+            padding: 14px 0;
+        }
+        &__title {
+            font-size: 24px;
+        }
+        .devider {
+            width: 283px;
+        }
+        &__text {
+            margin-top: 22px;
+            font-size: 15px;
+        }
+        &__mark {
+            padding-left: 8px;
+        }
+        &__item {
+            font-size: 14px;
         }
     }
 }
