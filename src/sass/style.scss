@@ -1,5 +1,8 @@
 @import 'libs/bootstrap-reboot.min';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+@import 'base/variables';
+
 * {
     font-family: 'Open Sans', sans-serif;
 }
@@ -21,7 +24,8 @@ li {
 
 @import 'blocks/header';
 @import 'blocks/promo';
-@import 'BLOCKS/about';
+@import 'blocks/about';
+@import 'blocks/team';
 
 
 

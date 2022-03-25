@@ -4,17 +4,11 @@
     &__wrapper {
         display: grid;
         grid-template-columns: 506px 457px;
-        grid-template-rows: /* minmax(408px, auto) */ 408px;
-        // column-gap: 177px;
+        grid-template-rows: 408px;
         justify-content: space-between;
     }
     &__comp {
         grid-row: 1/3;
-        // img {
-        //     width: 100%;
-        //     height: 100%;
-        //     object-fit: contain;
-        // }
     }
     &__descr {
         padding: 33px 0 42px 0;
@@ -37,7 +31,7 @@
         font-size: 18px;
         font-weight: 400;
         letter-spacing: -0.04em;
-        color: #6c6c6c;
+        color: $text-color;
     }
     &__mark {
         margin: 45px 0 0 0;
