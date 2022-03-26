@@ -126,6 +126,11 @@
             font-size: 18px;
         }
     }
+    .team {
+        &__title {
+            font-size: 34px;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -179,6 +184,17 @@
         }
         &__item {
             font-size: 14px;
+        }
+    }
+    .team {
+        padding: 50px 0;
+        &__title {
+            font-size: 24px;
+        }
+        &__wrapper {
+            margin-top: 50px;
+            grid-template-columns: repeat(auto-fill,270px);
+            justify-content: center;
         }
     }
 }
