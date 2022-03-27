@@ -100,6 +100,16 @@
             }
         }
     }
+    .team {
+        &__wrapper {
+            justify-content: space-around;
+        }
+    }
+    .services {
+        &__wrapper {
+            justify-content: space-around;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -127,6 +137,11 @@
         }
     }
     .team {
+        &__title {
+            font-size: 34px;
+        }
+    }
+    .services {
         &__title {
             font-size: 34px;
         }
@@ -195,6 +210,19 @@
             margin-top: 50px;
             grid-template-columns: repeat(auto-fill,270px);
             justify-content: center;
+        }
+    }
+    .services {
+        padding: 50px 0;
+        &__title {
+            font-size: 24px;
+        }
+        &__text {
+            margin-top: 40px;
+            font-size: 15px;
+        }
+        &__wrapper {
+            margin-top: 80px;
         }
     }
 }
