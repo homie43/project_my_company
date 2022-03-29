@@ -110,6 +110,17 @@
             justify-content: space-around;
         }
     }
+    .clients {
+        &__brends {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &_elem {
+            &:nth-child(5) {
+                margin-top: 15px;
+            }   
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -144,6 +155,19 @@
     .services {
         &__title {
             font-size: 34px;
+        }
+    }
+    .clients {
+        &__title {
+            font-size: 34px;
+        }
+        &_elem {
+            &:nth-child(4) {
+                margin-top: 17px;
+            }  
+            &:nth-child(5) {
+                margin-top: 17px;
+            }   
         }
     }
 }
@@ -223,6 +247,27 @@
         }
         &__wrapper {
             margin-top: 80px;
+        }
+    }
+    .clients {
+        padding: 50px 0;
+        &__title {
+            font-size: 24px;
+        }
+        &__brends {
+            margin-top: 70px;
+            flex-direction: column;
+        }
+        &_elem {
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 30px;
+            &:nth-child(4) {
+                margin-top: 30px;
+            }  
+            &:nth-child(5) {
+                margin-top: 30px;
+            } 
         }
     }
 }
