@@ -201,6 +201,11 @@
             margin-top: 7px;
         }
     }
+    .testimonials {
+        &__title {
+            font-size: 34px;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -317,6 +322,20 @@
             &:nth-child(7) {
                 display: none;
             }
+        }
+    }
+    .testimonials {
+        padding: 50px 0;
+        &__title {
+            font-size: 24px;
+        }
+        &__text {
+            margin-top: 40px;
+            font-size: 15px;
+        }
+        &__descr {
+            margin-top: 40px;
+            font-size: 15px;
         }
     }
 }
