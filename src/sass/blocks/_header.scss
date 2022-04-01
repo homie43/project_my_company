@@ -15,6 +15,10 @@
         text-transform: uppercase;
         color: #ffffff;
         margin-top: 56px;
+        &:hover {
+            text-decoration: none;
+            color: #fff;
+        }
     }
     &__menu {
         display: flex;
